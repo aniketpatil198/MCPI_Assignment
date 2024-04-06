@@ -1,0 +1,172 @@
+2024-04-06 14:56:37,410 [INFO] Activator:176 - 
+
+
+2024-04-06 14:56:37,412 [INFO] Activator:177 - !SESSION log4j initialized
+2024-04-06 14:56:38,782 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-04-06 14:56:39,184 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 29: file:/home/hp/Desktop/Micro-C work/MicroAssi/MCPI_Assignment/.metadata/.log4j2.xml
+2024-04-06 14:56:39,184 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+2024-04-06 14:56:39,185 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+2024-04-06 14:56:39,185 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3229)
+2024-04-06 14:56:39,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3177)
+2024-04-06 14:56:39,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:623)
+2024-04-06 14:56:39,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1056)
+2024-04-06 14:56:39,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2024-04-06 14:56:39,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+2024-04-06 14:56:39,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+2024-04-06 14:56:39,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+2024-04-06 14:56:39,188 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:41)
+2024-04-06 14:56:39,188 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+2024-04-06 14:56:39,188 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+2024-04-06 14:56:39,188 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+2024-04-06 14:56:39,189 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+2024-04-06 14:56:39,189 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-06 14:56:42,466 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 2:56:42 PM java.util.prefs.FileSystemPreferences$2 run
+2024-04-06 14:56:42,466 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not create system preferences directory. System preferences are unusable.
+2024-04-06 14:56:42,466 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 14:56:44,898 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 14:56:44,899 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 14:56:44,899 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 14:56:44,899 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 14:56:44,899 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 14:57:08,763 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 2:57:08 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 14:57:08,763 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 32703.
+2024-04-06 14:57:08,771 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 14:57:08,772 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 2:57:08 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 14:57:08,772 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 14:57:08,772 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 14:57:38,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 2:57:38 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 14:57:38,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 32703.
+2024-04-06 14:57:38,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 14:57:38,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 2:57:38 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 14:57:38,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 14:57:38,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 14:58:08,759 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 2:58:08 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 14:58:08,760 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 32703.
+2024-04-06 14:58:08,760 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 14:58:08,760 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 2:58:08 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 14:58:08,760 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 14:58:08,760 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 14:58:20,456 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:01:07,351 [INFO] Activator:176 - 
+
+
+2024-04-06 15:01:07,352 [INFO] Activator:177 - !SESSION log4j initialized
+2024-04-06 15:01:09,909 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-04-06 15:01:10,313 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 29: file:/home/hp/Desktop/Micro-C work/MicroAssi/MCPI_Assignment/.metadata/.log4j2.xml
+2024-04-06 15:01:10,313 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+2024-04-06 15:01:10,313 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+2024-04-06 15:01:10,313 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3229)
+2024-04-06 15:01:10,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3177)
+2024-04-06 15:01:10,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:623)
+2024-04-06 15:01:10,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1056)
+2024-04-06 15:01:10,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2024-04-06 15:01:10,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+2024-04-06 15:01:10,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+2024-04-06 15:01:10,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+2024-04-06 15:01:10,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:41)
+2024-04-06 15:01:10,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+2024-04-06 15:01:10,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+2024-04-06 15:01:10,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+2024-04-06 15:01:10,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+2024-04-06 15:01:10,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-06 15:01:11,974 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:01:11 PM java.util.prefs.FileSystemPreferences$2 run
+2024-04-06 15:01:11,975 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not create system preferences directory. System preferences are unusable.
+2024-04-06 15:01:11,975 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:01:14,480 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 15:01:14,480 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 15:01:14,481 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 15:01:14,481 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 15:01:14,481 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 15:01:39,299 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:01:39 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 15:01:39,300 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 32240.
+2024-04-06 15:01:39,300 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:01:39,301 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:01:39 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 15:01:39,301 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 15:01:39,301 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:02:09,297 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:02:09 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 15:02:09,297 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 32240.
+2024-04-06 15:02:09,297 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:02:09,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:02:09 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 15:02:09,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 15:02:09,298 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:02:39,293 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:02:39 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 15:02:39,294 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 32240.
+2024-04-06 15:02:39,294 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:02:39,294 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:02:39 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 15:02:39,294 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 15:02:39,294 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:03:09,291 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:03:09 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 15:03:09,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 32240.
+2024-04-06 15:03:09,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:03:09,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 3:03:09 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 15:03:09,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 15:03:09,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:03:36,264 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 15:03:36,265 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 16:58:18,328 [INFO] Activator:176 - 
+
+
+2024-04-06 16:58:18,329 [INFO] Activator:177 - !SESSION log4j initialized
+2024-04-06 16:58:21,209 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-04-06 16:58:21,578 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 29: file:/home/hp/Desktop/Micro-C work/MicroAssi/MCPI_Assignment/.metadata/.log4j2.xml
+2024-04-06 16:58:21,579 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+2024-04-06 16:58:21,579 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+2024-04-06 16:58:21,579 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3229)
+2024-04-06 16:58:21,579 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3177)
+2024-04-06 16:58:21,579 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:623)
+2024-04-06 16:58:21,580 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1056)
+2024-04-06 16:58:21,580 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2024-04-06 16:58:21,580 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+2024-04-06 16:58:21,580 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+2024-04-06 16:58:21,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+2024-04-06 16:58:21,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:41)
+2024-04-06 16:58:21,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+2024-04-06 16:58:21,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+2024-04-06 16:58:21,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+2024-04-06 16:58:21,582 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+2024-04-06 16:58:21,582 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-06 16:58:23,171 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 4:58:23 PM java.util.prefs.FileSystemPreferences$2 run
+2024-04-06 16:58:23,171 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not create system preferences directory. System preferences are unusable.
+2024-04-06 16:58:23,172 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 16:58:25,579 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 16:58:25,580 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 16:58:25,581 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 16:58:25,581 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 16:58:25,581 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-04-06 16:58:51,515 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 4:58:51 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 16:58:51,515 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 0.
+2024-04-06 16:58:51,515 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 16:58:51,516 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 4:58:51 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 16:58:51,516 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 16:58:51,516 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 16:59:21,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 4:59:21 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 16:59:21,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 0.
+2024-04-06 16:59:21,508 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 16:59:21,508 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 4:59:21 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 16:59:21,508 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 16:59:21,508 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 16:59:37,318 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2024-04-06 16:59:51,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 4:59:51 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 16:59:51,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 28814.
+2024-04-06 16:59:51,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 16:59:51,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 4:59:51 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 16:59:51,508 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 16:59:51,508 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 17:00:21,506 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 5:00:21 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 17:00:21,506 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 28814.
+2024-04-06 17:00:21,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 17:00:21,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 5:00:21 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 17:00:21,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 17:00:21,507 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 17:00:51,510 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 5:00:51 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 17:00:51,510 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 28814.
+2024-04-06 17:00:51,510 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 17:00:51,511 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 5:00:51 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 17:00:51,511 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 17:00:51,511 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 17:01:21,516 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 5:01:21 PM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2024-04-06 17:01:21,516 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 28814.
+2024-04-06 17:01:21,516 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-04-06 17:01:21,516 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Apr 06, 2024 5:01:21 PM java.util.prefs.FileSystemPreferences syncWorld
+2024-04-06 17:01:21,517 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2024-04-06 17:01:21,517 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
